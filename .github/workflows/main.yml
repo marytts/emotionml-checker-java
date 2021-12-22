@@ -33,9 +33,12 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Build with Gradle
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
         run: ./gradlew build
+
+      - name: Publish with Gradle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew publish
 
       - name: Cleanup Gradle cache
         run: |
