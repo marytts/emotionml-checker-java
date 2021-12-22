@@ -5,6 +5,13 @@ emotionml-checker-java
 
 A generic implementation of EmotionML checks, in Java.
 
+Building
+--------
+
+Run
+
+    ./gradlew build
+
 Command line usage
 ------------------
 
@@ -36,9 +43,7 @@ To inquire about properties of an Emotion Vocabulary:
     vocabulary.getType()
     vocabulary.getItems()    
 
-
 License
 -------
 
-This software is placed in the public domain as defined by the CC0 license, see
-http://creativecommons.org/publicdomain/zero/1.0/
+This software is placed in the public domain as defined by the CC0 license, see https://creativecommons.org/publicdomain/zero/1.0/.
