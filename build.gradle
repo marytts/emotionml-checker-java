@@ -50,7 +50,7 @@ publishing {
                 licenses {
                     license {
                         name = 'Creative Commons Zero v1.0 Universal'
-                        url = 'https://spdx.org/licenses/CC0-1.0.html'
+                        url = 'https://creativecommons.org/publicdomain/zero/1.0/'
                     }
                 }
                 developers {
