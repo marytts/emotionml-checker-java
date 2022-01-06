@@ -35,10 +35,10 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Publish with Gradle
+      - name: Publish to GitHub Packages with Gradle
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew publish
+        run: ./gradlew publishAllPublicationsToGitHubPackagesRepository
 
       - name: Cleanup Gradle cache
         run: |
