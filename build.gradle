@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
-    testCompileOnly 'junit:junit:4.13'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testCompileOnly 'junit:junit:4.13.2'
     testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
 }
 
