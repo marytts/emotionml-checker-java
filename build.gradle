@@ -47,6 +47,8 @@ publishing {
             pom {
                 name = project.name
                 description = project.description
+                def projectUrl = 'https://github.com/marytts/emotionml-checker-java'
+                url = projectUrl
                 licenses {
                     license {
                         name = 'Creative Commons Zero v1.0 Universal'
@@ -62,6 +64,11 @@ publishing {
                         id = 'psibre'
                         name = 'Ingmar Steiner'
                     }
+                }
+                scm {
+                    connection = "scm:git:${projectUrl}.git"
+                    developerConnection = 'scm:git:ssh://github.com:marytts/emotionml-checker-java.git'
+                    url = "$projectUrl/tree/master"
                 }
             }
         }
