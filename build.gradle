@@ -58,6 +58,10 @@ publishing {
                         id = 'marc1s'
                         name = 'Marc Schröder'
                     }
+                    developer {
+                        id = 'psibre'
+                        name = 'Ingmar Steiner'
+                    }
                 }
             }
         }
