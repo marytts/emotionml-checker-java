@@ -4,6 +4,11 @@ emotionml-checker-java Changelog
 [Unreleased]
 ------------
 
+### Changes
+
+- Upgraded Gradle to v7.3.3
+- Upgraded test dependencies
+
 [v1.2] (2021-12-22)
 -------------------
 
