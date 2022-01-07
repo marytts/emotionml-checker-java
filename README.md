@@ -46,7 +46,7 @@ Ensure you have a valid GitHub personal access token with `read:packages` scope.
 
 #### Gradle
 
-Configure your GitHub usename and token as Gradle properties `GitHubPackagesUsername` and `GitHubPackagesPassword`, respectively.
+Configure your GitHub username and token as Gradle properties `GitHubPackagesUsername` and `GitHubPackagesPassword`, respectively.
 
 Then, add this to your `build.gradle`:
 
@@ -128,8 +128,3 @@ To inquire about properties of an Emotion Vocabulary:
 vocabulary.getType()
 vocabulary.getItems()
 ```
-
-License
--------
-
-This software is placed in the public domain as defined by the CC0 license, see https://creativecommons.org/publicdomain/zero/1.0/.
