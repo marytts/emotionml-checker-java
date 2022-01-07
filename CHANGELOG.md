@@ -4,10 +4,14 @@ emotionml-checker-java Changelog
 [Unreleased]
 ------------
 
+[v1.2.1] (2022-01-07)
+-------------------
+
 ### Changes
 
 - Upgraded Gradle to v7.3.3
 - Upgraded test dependencies
+- Released to Maven Central
 
 [v1.2] (2021-12-22)
 -------------------
@@ -28,6 +32,7 @@ Release published to Bintray, indexed in JCenter
 Initial release
 
 [Unreleased]: https://github.com/marytts/emotionml-checker-java
+[v1.2.1]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.2.1
 [v1.2]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.2
 [v1.1]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.1
 [v1.0]: https://github.com/marytts/emotionml-checker-java/releases/tag/emotionml-checker-java-1.0
