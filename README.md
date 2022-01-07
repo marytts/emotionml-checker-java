@@ -8,9 +8,43 @@ A generic implementation of EmotionML checks, in Java.
 Dependency resolution
 ---------------------
 
+### Releases
+
+As of v1.2.1, release artifacts for this component is available via Maven Central.
+
+#### Gradle
+
+Add this to your `build.gradle`:
+
+```gradle
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'de.dfki.mary', name: 'emotionml-checker-java', version: '1.2.1'
+}
+```
+
+#### Maven
+
+Add this to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>de.dfki.mary</groupId>
+    <artifactId>emotionml-checker-java</artifactId>
+    <version>1.2.1</version>
+</dependency>
+```
+
+### Snapshots
+
+Snapshot releases are hosted via GitHub Packages.
+
 Ensure you have a valid GitHub personal access token with `read:packages` scope.
 
-### Gradle
+#### Gradle
 
 Configure your GitHub usename and token as Gradle properties `GitHubPackagesUsername` and `GitHubPackagesPassword`, respectively.
 
@@ -33,11 +67,11 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'de.dfki.mary', name: 'emotionml-checker-java', version: '1.2'
+    implementation group: 'de.dfki.mary', name: 'emotionml-checker-java', version: '1.3-SNAPSHOT'
 }
 ```
 
-### Maven
+#### Maven
 
 Configure your Maven `settings.xml` to [authenticate to GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry).
 
@@ -47,7 +81,7 @@ Then, add this to your `pom.xml`:
 <dependency>
     <groupId>de.dfki.mary</groupId>
     <artifactId>emotionml-checker-java</artifactId>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
 </dependency>
 ```
 
