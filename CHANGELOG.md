@@ -1,6 +1,9 @@
 emotionml-checker-java Changelog
 ================================
 
+[Unreleased]
+------------
+
 [v1.2.3] (2025-05-29)
 ---------------------
 
@@ -53,6 +56,7 @@ Release published to Bintray, indexed in JCenter
 
 Initial release
 
+[Unreleased]: https://github.com/marytts/emotionml-checker-java/tree/master
 [v1.2.3]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.2.3
 [v1.2.2]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.2.2
 [v1.2.1]: https://github.com/marytts/emotionml-checker-java/releases/tag/v1.2.1
