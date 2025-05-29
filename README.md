@@ -2,6 +2,7 @@ emotionml-checker-java
 ======================
 
 [![CI](https://github.com/marytts/emotionml-checker-java/actions/workflows/main.yml/badge.svg)](https://github.com/marytts/emotionml-checker-java/actions/workflows/main.yml)
+[![Maven Central](https://maven-badges.sml.io/sonatype-central/de.dfki.mary/emotionml-checker-java/badge.svg)](https://central.sonatype.com/artifact/de.dfki.mary/emotionml-checker-java)
 
 A generic implementation of EmotionML checks, in Java.
 
