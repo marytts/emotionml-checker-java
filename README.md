@@ -6,39 +6,6 @@ emotionml-checker-java
 
 A generic implementation of EmotionML checks, in Java.
 
-Dependency resolution
----------------------
-
-### Releases
-
-As of v1.2.1, release artifacts for this component is available via Maven Central.
-
-#### Gradle
-
-Add this to your `build.gradle`:
-
-```gradle
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation group: 'de.dfki.mary', name: 'emotionml-checker-java', version: '1.2.1'
-}
-```
-
-#### Maven
-
-Add this to your `pom.xml`:
-
-```xml
-<dependency>
-    <groupId>de.dfki.mary</groupId>
-    <artifactId>emotionml-checker-java</artifactId>
-    <version>1.2.1</version>
-</dependency>
-```
-
 Building
 --------
 
