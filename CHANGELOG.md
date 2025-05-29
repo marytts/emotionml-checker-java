@@ -4,6 +4,21 @@ emotionml-checker-java Changelog
 [Unreleased]
 ------------
 
+### Added
+
+- Testing on Java 17, 21
+
+### Removed
+
+- Testing on Java 8, 11
+- Snapshot hosting on GitHub Packages
+
+### Changed
+
+- Build with Gradle v8.14.1
+- Upgraded dependencies
+- Upgraded GitHub Actions
+
 [v1.2.2] (2022-01-16)
 -------------------
 
