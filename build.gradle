@@ -5,9 +5,9 @@ plugins {
     id 'maven-publish'
 }
 
-group 'de.dfki.mary'
-version '1.3-SNAPSHOT'
-description 'A generic implementation of EmotionML checks, in Java'
+group = 'de.dfki.mary'
+version = '1.3-SNAPSHOT'
+description = 'A generic implementation of EmotionML checks, in Java'
 
 repositories {
     mavenCentral()
