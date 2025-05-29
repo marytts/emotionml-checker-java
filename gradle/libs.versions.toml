@@ -1,0 +1,8 @@
+[versions]
+junit = "4.13.2"
+junit-jupiter = "5.8.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit-jupiter" }
+junit-vintage-engine = { group = "org.junit.vintage", name = "junit-vintage-engine", version.ref = "junit-jupiter" }
